@@ -84,7 +84,7 @@ nav ul
     justify-content: space-around;
     text-align: left;
     direction: ltr;
-    font-size: min(20px, 1.5vw);
+    font-size: min(2em, 90%, 4vw);
 
 }
 
