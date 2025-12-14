@@ -1,0 +1,241 @@
+
+
+
+/*  */
+
+
+/* Media Queries */
+@media (prefers-color-scheme: dark)
+{
+
+
+    header, body
+    {
+        background-color:  rgb(49, 47, 47);
+
+        color: antiquewhite;
+    }   
+
+
+}
+
+@media (prefers-color-scheme: light)
+{
+
+
+    header, body
+    {
+        background-color: rgb(179, 171, 171);
+
+        color: rgb(0, 0, 0);
+    }   
+
+
+}
+
+
+/*  */
+/* Header Stuff */
+/*  */
+
+
+html
+{
+
+  /* creates a scrollbar when content overflows */
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+
+header
+{
+  
+    font-size: min(20px, 2vw);
+    font-weight: bold;
+    margin-bottom: min(35px, 2vw);
+    text-align: center;
+
+    
+    /* color: rgb(0, 0, 0); */
+}
+
+
+
+
+.PageLinks nav
+{
+
+    margin-bottom: min(30px, 2vw);
+    /* padding: min(2px, 0.5vw); */
+    
+
+}
+
+
+    
+nav ul
+{
+  
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    direction: ltr;
+    font-size: min(20px, 1.5vw);
+
+}
+
+/* unvisited link */
+a:link 
+{
+  color: rgb(124, 106, 106);
+}
+
+/* visited link */
+a:visited 
+{
+  color: purple;
+}
+
+/* mouse over link */
+a:hover 
+{
+  color: blue;
+}
+
+/* selected link */
+a:active 
+{
+  color: green;
+}
+
+
+/* Custom Header */
+
+.PageLinks ul
+{
+
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: min(40px, 5%);
+    padding: min(0px, 0.5vw);
+    gap: min(24px, 1vw);
+    
+
+     
+    /* text-align: center; */
+
+    /* display: table; */
+
+   
+
+
+}
+
+.AboutMyself
+{
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    text-align: center;
+
+}
+
+
+
+/* .SocialMediaLinks
+{
+    margin: min(40px, 5%);
+    padding: 0;
+    text-align: center;
+
+} */
+
+.SocialMediaLinks 
+{
+
+    
+    margin: min(15px, 2vw);
+    margin-block: min(15px, 2vw);
+    margin-inline: auto;
+
+    border: 2px solid rgb(0, 0, 0);
+
+    width: clamp(300px, 50%, 850px);
+    height: clamp(120px, 20%, 180px);
+
+    padding: min(6px, 0.5vw);
+    text-align: center;
+    background-color: rgb(41, 39, 39);
+
+    
+
+    
+}
+
+.SocialMediaLinks h2
+{
+    margin: 0;
+    padding: 0;
+    font-size: min(22px, 2vw);
+
+}
+
+.SocialMediaLinks ul
+{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    gap: min(50px, 1vw);
+
+}
+
+
+
+
+/*  */
+/* Custom Body Stuff */
+/*  */
+
+body 
+{
+
+    margin-top: min(35px, 2vw);
+    font-size: min(18px, 1.5vw);
+    line-height: 1.2;
+    
+}
+
+body h2
+{
+    margin-top: min(30px, 2vw);
+    margin-bottom: min(15px, 1.5vw);
+    font-size: min(24px, 2.5vw);
+
+}
+
+
+.MoreAboutMe, .SoftwareDevelopmentExperience, .GameDesignExperience, .ProgrammingExperience, .ArtExperience
+{
+
+    /* box background and border */
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(41, 39, 39);
+
+    width: clamp(500px, 50%, 1200px);
+    height: clamp(140px, 20%, 195px);
+
+    margin: min(20px, 2vw);
+    padding: min(10px, 1vw);
+
+}
