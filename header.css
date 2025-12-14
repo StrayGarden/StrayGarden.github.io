@@ -33,6 +33,14 @@
 
 
 
+/* @media only screen and (max-width:2160px) and (min-width: 1080px)
+{ 
+
+    
+} */
+
+
+
 
 
 
@@ -97,25 +105,25 @@ nav ul
 /* unvisited link */
 a:link 
 {
-  color: rgb(124, 106, 106);
+  color: white(124, 106, 106);
 }
 
 /* visited link */
 a:visited 
 {
-  color: purple;
+  color: white;
 }
 
 /* mouse over link */
 a:hover 
 {
-  color: blue;
+  color: rgb(134, 73, 129);
 }
 
 /* selected link */
 a:active 
 {
-  color: green;
+  color: rgb(57, 147, 231);
 }
 
 
