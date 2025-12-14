@@ -1,5 +1,8 @@
 
 
+
+/* RESPONSIVE DESIGN is done through Anchors - Min, Max and Clamp instead of Media Queries */
+
 /*  */
 /* Media Queries for Light and Dark Mode */
 /*  */
@@ -60,6 +63,7 @@ html
 
 }
 
+
 header
 {
   
@@ -87,7 +91,7 @@ header
 }
 
 
-    
+/* Links CSS (For social and page navigation) */
 nav ul
 {
   
@@ -102,6 +106,8 @@ nav ul
 
 }
 
+
+/* Link Colors */
 /* unvisited link */
 a:link 
 {
@@ -153,6 +159,7 @@ a:active
 
 }
 
+/* About Myself Section CSS */
 .AboutMyself
 {
     margin: 0;
@@ -163,7 +170,7 @@ a:active
 
 }
 
-
+/* Social Media Links Section CSS */
 .SocialMediaLinks 
 {
 
@@ -195,6 +202,8 @@ a:active
     
 }
 
+
+/* Social Media Links Section Header 3 CSS */
 .SocialMediaLinks h3
 {
     margin: 0;
@@ -203,6 +212,7 @@ a:active
 
 }
 
+/* Social Media Links Section CSS */
 .SocialMediaLinks ul
 {
   
@@ -216,6 +226,7 @@ a:active
 
 }
 
+/* Flex container */
 #box1
 {
     grid-column-start: 1;

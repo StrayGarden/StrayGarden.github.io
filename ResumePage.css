@@ -1,4 +1,9 @@
 
+
+
+/* RESPONSIVE DESIGN is done through Anchors - Min, Max and Clamp instead of Media Queries */
+
+/* Body Style and flexbox setup */
 body
 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -7,6 +12,7 @@ body
     flex-direction: column;
 }
 
+/* flex container for boxes */
 .box
 {
     display: flex;
@@ -32,6 +38,7 @@ body
     padding: min(20px, 2vw);
 }
 
+/* Resume Page Introduction Text */
 .ResumeIntro 
 {
     text-align: center;
@@ -40,7 +47,7 @@ body
 }
 
 
-
+/* Resume Page Button CSS */
 .ResumePageButton button
 {
   
@@ -77,6 +84,8 @@ body
     transition: background-color 0.3s, color 0.3s;
 }
 
+
+/* Hover effect for Resume Page Button changes Color */
 .ResumePageButton button:hover
 {
     background-color: rgb(99, 73, 129);

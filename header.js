@@ -1,4 +1,9 @@
 
+
+
+// HEADER CONTENT INJECTION HTML DOMS
+
+// Page Links Section DOM Injection
 document.getElementsByClassName("PageLinks")[0].innerHTML = 
     `
         <nav>
@@ -12,6 +17,9 @@ document.getElementsByClassName("PageLinks")[0].innerHTML =
                 </ul>
             </nav>`;
 
+
+          
+// About Myself Section DOM Injection
 document.getElementsByClassName("AboutMyself")[0].innerHTML = 
     `
         <h1>Seth</h1>
@@ -19,7 +27,7 @@ document.getElementsByClassName("AboutMyself")[0].innerHTML =
     `;
 
 
-
+// Social Media Links Section DOM Injection
 document.getElementsByClassName("SocialMediaLinks")[0].innerHTML = 
     `
         <h3>Social Media Links:</h3>
@@ -38,7 +46,8 @@ document.getElementsByClassName("SocialMediaLinks")[0].innerHTML =
 
 
 //Slow Fade in effect for header elements
-window.addEventListener('load', () => {
+window.addEventListener('load', () => 
+{
     const headerElements = document.querySelectorAll('.PageLinks, .AboutMyself, .SocialMediaLinks');
     headerElements.forEach(element => {
         element.style.opacity = '1';
@@ -51,7 +60,8 @@ window.addEventListener('load', () => {
 const currentPage = window.location.pathname.split("/").pop();
 const navLinks = document.querySelectorAll('.PageLinks a');
 
-navLinks.forEach(link => {
+navLinks.forEach(link => 
+{
     if(link.getAttribute('href') === currentPage){
         link.style.pointerEvents = 'none';
         link.style.color = 'gray';

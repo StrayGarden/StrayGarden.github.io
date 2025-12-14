@@ -1,5 +1,8 @@
 
 
+/* RESPONSIVE DESIGN is done through Anchors - Min, Max and Clamp instead of Media Queries */
+
+/* Font Style */
 body
 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -13,6 +16,7 @@ body
     font-size: min(1.4rem, 2.2vw);
 }
 
+/* CSS for Contact Form */
 .ContactForm 
 {
     display: flex;
@@ -31,12 +35,14 @@ body
     gap: min(15px, 2vw);
 }
 
+/* Paragraph CSS for Contact Form */
 .ContactForm  p
 {
     font-size: min(1.2rem, 2vw);
     margin-bottom: min(8px, 1.5vw);
 }
 
+/* Input and Textarea CSS for Contact Form */
 .ContactForm input, .ContactForm textarea 
 {
     width: 100%;
@@ -47,6 +53,8 @@ body
     font-family: Arial, sans-serif;
     box-sizing: border-box;
 }
+
+/* Button CSS for Contact Form */
 .ContactForm button 
 {
     padding: min(10px, 1.5vw) min(20px, 2vw);
