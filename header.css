@@ -123,7 +123,7 @@ a:hover
 /* selected link */
 a:active 
 {
-  color: rgb(57, 147, 231);
+  color: rgb(255, 255, 255);
 }
 
 
