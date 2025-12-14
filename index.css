@@ -210,8 +210,8 @@ a:active
 body 
 {
 
-    margin-top: min(35px, 2vw);
-    font-size: min(18px, 1.5vw);
+    margin-top: min(2em, 80%, 2vw);
+    font-size: min(18px, 1.8vw);
     line-height: 1.2;
     
 }
@@ -235,7 +235,7 @@ body h2
     width: clamp(500px, 50%, 1200px);
     height: clamp(140px, 20%, 195px);
 
-    margin: min(20px, 2vw);
+    margin: min(30px, 2.5vw);
     padding: min(10px, 1vw);
 
 }
