@@ -6,7 +6,9 @@
     <title>Contact Page</title>
 
     <!-- Injecting CSS Code -->
-    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="ContactPage.css">
 
 </head>
 <body>
@@ -59,6 +61,33 @@
         
         <h1>Contact Me</h1>
         <p>If you'd like to get in touch, please feel free to reach out via email or through my social media channels listed on the homepage.</p>
+
+    </div>
+
+
+    <!-- Contact Form -->
+    <div class="ContactForm">
+        
+        <h2>Contact Form</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+
+            <label for="name"> <p>Name:</p></label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email"><p>Email:</p></label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="subject"><p>Subject:</p></label><br>
+            <input type="text" id="subject" name="subject" required><br><br>
+
+            <label for="message"><p>Message:</p></label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+
+        
 
     </div>
 

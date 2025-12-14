@@ -1,0 +1,58 @@
+
+
+body
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.ContactIntro 
+{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: min(1.3rem, 2vw);
+}
+
+.ContactForm 
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+
+
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(41, 39, 39);
+
+    padding: min(20px, 2vw);
+
+
+    gap: min(15px, 2vw);
+}
+
+.ContactForm  p
+{
+    font-size: min(1.2rem, 2vw);
+    margin-bottom: min(8px, 1.5vw);
+}
+
+.ContactForm input, .ContactForm textarea 
+{
+    width: 100%;
+    padding: min(10px, 1.5vw);
+    margin-bottom: min(15px, 2vw);
+    border: 2px solid rgb(0, 0, 0);
+    font-size: min(1rem, 1.8vw);
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+.ContactForm button 
+{
+    padding: min(10px, 1.5vw) min(20px, 2vw);
+    background-color: rgb(70, 130, 180);
+    color: white;
+    border: none;
+    font-size: min(1.2rem, 2vw);
+    cursor: pointer;
+}
